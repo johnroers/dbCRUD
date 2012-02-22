@@ -1,7 +1,7 @@
 # dbCRUD
       
-  Smart, flexible, automated CRUD for MySQL
-  built on [node](http://nodejs.org) and [mysql](https://github.com/felixge/node-mysql),
+  Smart, flexible, automated CRUD for MySQL, built on [node](http://nodejs.org)
+  and [mysql](https://github.com/felixge/node-mysql),
   and optimized for use with [express](http://expressjs.com/)
 
 
@@ -66,7 +66,7 @@
 
     db.saveTree(db.model.family, myFamily, callback);
 
-  will save not only the family object, but its child "person" objects as well, if they are
+  will save not only the "family" object, but its child "person" objects as well, if they are
   present in an embedded array
 
 ### Query Syntax
