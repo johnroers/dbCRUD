@@ -1,21 +1,22 @@
 {
- 
-	"name": "dbcrud",
- 
-	"version": "0.0.1",
-
-	"description": "Smart, flexible, automated CRUD for MySQL",
- 
-	"author": "John Roers <jroers@gmail.com>",
- 
-	"contributors": [
-		{ "name": "John Roers", "email": "jroers@gmail.com" }
+	"name":         "dbcrud",
+    "version":      "0.1.1",
+    "description":  "Smart, flexible, automated CRUD for MySQL",
+    "keywords":     [ "CRUD", "database", "REST", "MySQL", "SQL" ],
+	"main":         "lib/dbcrud.js",
+    "homepage":     "https://github.com/johnroers/dbCRUD",
+    "author":       "John Roers <jroers@gmail.com>",
+    "contributors":
+    [
+    	{ "name":   "John Roers",       "email":   "jroers@gmail.com" }
 	],
-
-	"keywords": [ "CRUD", "database", "REST", "MySQL", "SQL" ],
-
-	"main": "lib/dbcrud.js",
-
-	"engines": { "node": "*" }
-
+	"repository":
+    {
+        "type":     "git",
+        "url":      "git://github.com/johnroers/dbCRUD.git"
+    },
+    "engines":
+    {
+        "node":     "*"
+    }
 }

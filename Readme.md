@@ -40,10 +40,12 @@
     var client = require('mysql').createClient({ user: 'root', password: '' });
     var db = require('dbcrud').init(client, 'contacts', model);
 
+  dbCRUD will create the database if it doesn't exist, create each table if it doesn't exist,
+  and create each column if it doesn't exist.
+
 ### Simple CRUD
 
-  dbCRUD will create the database if it doesn't exist, create each table if it doesn't exist,
-  and create each column if it doesn't exist.  Then it exposes simple CRUD methods:
+  Now that dbCRUD knows your data model structure, it exposes simple CRUD methods:
 
     db.fetch(db.model.family, 14, callback);
     db.save(db.model.family, myFamily, callback);
