@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/johnroers/dbCRUD.png)](http://travis-ci.org/johnroers/dbCRUD)
 # dbCRUD
       
   Smart, flexible, automated CRUD for MySQL, built on [node](http://nodejs.org)
